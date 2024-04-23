@@ -29,7 +29,7 @@ const CardServices = ({ title, img, borderColor, IconBg }) => {
           w={{ base: "fit-content", md: "30%", lg: "30%" }}
           bg={IconBg}
           justify={"center"}
-          p={10}
+          p={12}
           align={"center"}
           style={{
             borderRadius: 12,
