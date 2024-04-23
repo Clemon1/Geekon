@@ -9,7 +9,6 @@ const CardServices = ({ title, img, borderColor, IconBg }) => {
       ref={ref}
       bg={"#ffffff"}
       miw={"10rem"}
-      mih={"35vh"}
       p={{ base: 25, md: 30, lg: 30 }}
       radius={"xl"}
       shadow='md'
@@ -24,7 +23,7 @@ const CardServices = ({ title, img, borderColor, IconBg }) => {
         direction={"column"}
         h={"100%"}
         justify={"space-between"}
-        gap={14}>
+        gap={15}>
         <Flex
           w={{ base: "fit-content", md: "30%", lg: "30%" }}
           bg={IconBg}
