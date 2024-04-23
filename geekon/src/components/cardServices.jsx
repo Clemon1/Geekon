@@ -27,7 +27,6 @@ const CardServices = ({ title, img, borderColor, IconBg }) => {
         gap={14}>
         <Flex
           w={{ base: "fit-content", md: "30%", lg: "30%" }}
-          h={"12vh"}
           bg={IconBg}
           justify={"center"}
           p={10}
