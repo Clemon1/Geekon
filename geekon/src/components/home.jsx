@@ -5,7 +5,7 @@ const Home = () => {
     <Flex
       w={"100%"}
       h={"100vh"}
-      px={{ base: 20, md: 30, lg: 25 }}
+      px={{ base: 14, md: 30, lg: 25 }}
       pb={25}
       gap={{ base: 30, sm: 30, md: 20, lg: 10 }}
       flex={1}
@@ -24,7 +24,7 @@ const Home = () => {
         mt={{ base: "0rem", md: "0rem", lg: "6rem" }}
         direction={"column"}>
         <Text
-          fz={{ base: 45, md: 50, lg: 65, xl: 70 }}
+          fz={{ base: 43, md: 50, lg: 65, xl: 70 }}
           fw={{ base: 500, md: 500, lg: 500 }}
           c={"#011627"}
           ta={{ base: "center", md: "center", lg: "unset" }}
@@ -59,8 +59,9 @@ const Home = () => {
               md: "50%",
               lg: "30%",
             }}
+            p={4}
             bg={"hsl(241, 77%, 63%)"}
-            h={"10vh"}
+            h={{ base: "7vh", md: "10vh", lg: "10vh" }}
             radius={"lg"}
             fz={16}>
             Let&apos;s Talk
