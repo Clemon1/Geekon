@@ -28,7 +28,7 @@ const Services = () => {
           style={{
             lineHeight: "1.3",
           }}>
-          Managing you business with
+          Managing your business with
           <br />
           our best service
         </Text>
